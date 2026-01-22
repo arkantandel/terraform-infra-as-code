@@ -1,4 +1,4 @@
-# 🌍 **Terraform Deep Dive – Complete Understanding With Real Concepts & Diagrams**
+# 🌍 **terraform-infra-as-code **
 
 👤 **Author:** [Arkan Tandel](https://www.github.com/arkantandel)
 – Complete Understanding With Real Concepts & Diagrams**
@@ -201,13 +201,4 @@ It helps teams:
 
 If you understand the logic behind Terraform, you can build ANY cloud architecture.
 
----
 
-If you want, I can also create:
-
-* A full Terraform **project** for GitHub
-* A full **PDF guide** (professional style)
-* More diagrams
-* A CI/CD pipeline for Terraform
-
-Just tell me ✔
