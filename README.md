@@ -1,74 +1,66 @@
-<!-- ===================== BANNER ===================== -->
+<!-- ===================== TERRAFORM BANNER ===================== -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arkantandel/assets/main/terraform-banner.png" alt="Terraform Infrastructure as Code Banner" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" width="120"/>
 </p>
 
-<h1 align="center">🌍 Terraform – Infrastructure as Code</h1>
+<h1 align="center">🌍 terraform-infra-as-code</h1>
 
 <p align="center">
-  <b>Build • Scale • Automate • Control</b><br/>
-  Real-World Terraform Concepts with Architecture Diagrams
+  <b>Infrastructure Automation • Real Concepts • Visual Learning</b>
 </p>
 
 <p align="center">
   👤 <b>Author:</b> <a href="https://www.github.com/arkantandel">Arkan Tandel</a><br/>
-  💼 Cloud | DevOps | AWS | Infrastructure Automation
+  ☁️ Cloud | DevOps | AWS | Terraform
 </p>
 
 ---
 
 ## 🚀 Welcome to the Terraform Master README
 
-This repository is **not just documentation** — it is a **complete mindset guide** to Terraform.
+Created by **[Arkan Tandel](https://www.github.com/arkantandel)** — this guide helps you understand **Terraform the way professionals think about it**.
 
-Created by **[Arkan Tandel](https://www.github.com/arkantandel)**, this README explains Terraform in a way that feels like **you are teaching it to someone else**, not memorizing commands.
+Instead of only definitions, this README explains:
 
-Here you will learn:
-- ✅ *Why* Terraform is used in real companies  
-- ✅ *How* it works internally  
-- ✅ *Where* it fits in DevOps & Cloud architecture  
+- **Why** Terraform is used  
+- **How** it works internally  
+- **Where** it fits in real DevOps environments  
 
----
-
-## 🌟 What is Terraform (In the Real World)?
-
-Terraform is **not just a tool** — it is the **language of cloud automation**.
-
-In real companies, Terraform is used so engineers don’t:
-❌ Click manually in AWS Console  
-❌ Repeat the same infra work again and again  
-
-Instead, they write **code** that:
-
-- 🏗️ Builds infrastructure
-- 🔄 Updates infrastructure safely
-- 💣 Destroys infrastructure cleanly
-- 🧠 Tracks infrastructure state
-- ☁️ Works across AWS, Azure, and GCP
-
-👉 Terraform converts **infrastructure into version-controlled software**.
+This is written as if you are **teaching Terraform to someone else**.
 
 ---
 
-## 🧠 How Terraform Actually Works (Internals)
+## 🚀 What is Terraform (In the Real World)?
+
+Terraform is not just a tool — it is the **language of cloud automation**.
+
+In companies, Terraform is used so infra teams don’t manually click on AWS services.  
+Instead, they write code that:
+
+- 🏗️ Builds infrastructure  
+- 🔄 Updates infrastructure  
+- 💣 Destroys infrastructure  
+- 🧠 Tracks infrastructure state  
+- ☁️ Works across AWS, Azure, and GCP  
+
+Terraform turns infrastructure into **version-controlled software**.
+
+---
+
+## 🧠 How Terraform Actually Works Internally
 
 Terraform follows a **declarative model**.
 
-You do NOT tell Terraform *how* to do things.  
-You tell Terraform **what you want**, and it figures out the rest.
+1. **You write the desired infrastructure** (what you WANT)
+2. **Terraform compares it with real cloud state** (what EXISTS)
+3. **Terraform creates a plan** showing changes
+4. **Terraform applies the plan** and updates the state
 
-### Terraform Thinking Cycle:
-1. **Write desired state** (WHAT you want)
-2. **Compare with real cloud state**
-3. **Create execution plan**
-4. **Apply changes**
-5. **Update state file**
-
-This is called **Declarative Infrastructure**.
+👉 This is called **Declarative Infrastructure**, not step-by-step scripting.
 
 ---
 
-## 📦 Terraform Project Structure (Enterprise Style)
+## 📦 Terraform Project Structure (High-Level Architecture)
 
 ```mermaid
 graph TD
